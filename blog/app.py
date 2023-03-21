@@ -7,8 +7,6 @@ def index():
     return "Hello world!"
 
 
-"""
 @app.route("/greet/<name>/")
 def greet_name(name: str):
     return f"Hello {name}!"
-"""
